@@ -1,0 +1,45 @@
+img{
+    color: aliceblue;
+    padding:0rem;
+    border: 75px;
+    margin: auto;
+    image-orientation: from-image;
+    
+}
+a:link{
+    color: blue;
+    text-decoration: dashed;
+}
+a :visited{
+    color: aquamarine;
+}
+a :hover{
+    color: black;
+    text-decoration: underline;
+}
+a :active{
+    color: aquamarine;
+    text-decoration: underline;
+}
+h1{
+    color: rgb(6, 29, 89);
+    text-align: center;
+    text-shadow: 1cm;
+    text-decoration: solid;
+    font-size:300%;
+
+}
+h2{
+    color: rgb(6, 29, 89);
+    text-align:left;
+    text-shadow: 1cm;
+    text-decoration: solid;
+    font-size:200%;
+
+}
+pre{
+    color: black;
+    text-align: left;
+    text-shadow: 1cm;
+    text-decoration: double;
+}
