@@ -1,0 +1,66 @@
+
+/* RESETEO DE CSS  */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+div{
+    border: 1px solid black;
+    /*  */float:left;
+    width: 400px;
+    padding: 35px;
+    margin: 30px;
+    text-align: center;
+}
+body{
+    background-color:#FFFFFF;
+}
+
+.Padre{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    padding: 15px;
+    margin-top: 15px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: rgb(72, 48, 12);
+}
+button a:hover{
+    color: #FFFFFF;
+}
+li{
+    list-style: none;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 10;
+    margin-bottom: 15px;
+}
+.barrita{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+     
+}
+
+.sindeco{
+    text-decoration: none;
+}
+
+h3,h4{
+    margin: 10px;
+}
