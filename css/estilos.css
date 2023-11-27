@@ -51,10 +51,10 @@ li{
     margin-bottom: 15px;
 }
 .barrita{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 .sindeco{
