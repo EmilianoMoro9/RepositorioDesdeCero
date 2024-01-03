@@ -3,8 +3,9 @@ let aviso = document.getElementById('aviso')
 console.log('Hola admin  ');
 
 const login = () => {
-    let user = document.getElementById('user').value;
+let user = document.getElementById('user').value;
 let password = document.getElementById('password').value;
+
     console.log(user);
     console.log(password);
     //user = ''
@@ -19,10 +20,13 @@ let password = document.getElementById('password').value;
     }
     else{
         if(user == usuario && password == pass) {
-            alert("Ha ingresado correctamente ")
+            //alert("Ha ingresado correctamente ")
+
+            localStorage.setItem('Admin', JSON.stringify(usuario));
+            
             location.href = 'admin.html'}
-            aviso.innerHTML = 'Los datos ingresados no son correctos.. ';
-            aviso.style.color = 'red';
+            
+            
         };
         form.reset();
     

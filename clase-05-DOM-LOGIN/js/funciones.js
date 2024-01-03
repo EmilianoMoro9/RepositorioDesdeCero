@@ -11,3 +11,7 @@ function saludar(name) {
     boton.style.width = '50px'
     botnon.style.color = '#ed694e'
 }
+
+
+let header = document.getElementById('admin');
+
