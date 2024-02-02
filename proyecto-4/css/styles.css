@@ -1,0 +1,178 @@
+.tit{
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.minimal-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.minimal-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.minimal-header p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.div1{
+    display: flex;
+    justify-content: left;
+    
+}
+.nav-container {
+    margin-right: auto; /* Empuja el botón de navegación hacia la izquierda */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.main-content {
+    position: relative;
+}
+
+.architecture-image {
+    position: relative;
+}
+
+.transparent-image {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.nota {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+}
+.texto {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333; /* Color del texto */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffcc00; /* Color de resaltado al pasar el ratón */
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative; /* Establece el contexto de apilamiento para elementos secundarios posicionados */
+    z-index: 2; 
+}
+
+.miembro {
+    text-align: center;
+    margin: 10px;
+}
+
+.miembro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.imagen-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+.foter2{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
+    margin-top: 900px;
+}
+.texto2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333; /* Color del texto */
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    
+}
+.aboutis{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333; /* Color del texto */
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+}
+
+
+.contenedor1{
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px;
+        text-align: justify;
+        color: #333;
+        max-width: 400px;
+        width: 100%;
+}
